@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "Suns",
+    "starSystem": "smallbug.Blackrock",
+    "Base": {
+        "hasMapMarker": false,
+        "sphereOfInfluence": 0,
+        "centerOfSolarSystem": true,
+        "hasReferenceFrame": false
+    },
+    "Orbit": {"isStatic": true},
+    "FocalPoint": {
+        "primary": "Sun A",
+        "secondary": "Sun B"
+    }
+}

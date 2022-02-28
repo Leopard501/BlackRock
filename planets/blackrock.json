@@ -1,0 +1,34 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
+    "name": "Blackrock",
+    "starSystem": "smallbug.Blackrock",
+    "Base": {
+        "hasMapMarker": true,
+        "hasAmbientLight": true,
+        "surfaceSize": 250,
+        "surfaceGravity": 14
+    },
+    "Spawn": {
+        "playerSpawnPoint": {"x": 0, "y": 0, "z": 280},
+        "shipSpawnPoint": {"x": 0, "y": 0, "z": 280},
+        "startWithSuit": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 10000,
+        "primaryBody": "Sun A",
+        "showOrbitLine": true,
+        "axialTilt": 30
+    },
+    "HeightMap": {
+        "heightMap": "planets/assets/blank_map.png",
+        "textureMap": "planets/assets/blank_map.png",
+        "maxHeight": 270,
+        "minHeight": 230
+    },
+    "Atmosphere": {
+        "size": 300,
+        "hasAtmosphere": true,
+        "hasOxygen": true,
+        "atmosphereTint": {"R": 0, "G": 120, "B": 255}
+    }
+}
