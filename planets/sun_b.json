@@ -16,6 +16,6 @@
         "size": 1200,
         "tint": {"R": 255, "G": 125, "B": 0, "A": 255},
         "solarFlareTint": {"R": 255, "G": 125, "B": 0, "A": 255},
-        "solarLuminosity": 0.5
+        "solarLuminosity": 0.6
     }
 }
