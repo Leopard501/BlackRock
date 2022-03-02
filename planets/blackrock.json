@@ -15,13 +15,13 @@
     },
     "Orbit": {
         "semiMajorAxis": 10000,
-        "primaryBody": "Sun A",
+        "primaryBody": "Suns",
         "showOrbitLine": true,
         "axialTilt": 30
     },
     "HeightMap": {
-        "heightMap": "planets/assets/blank_map.png",
-        "textureMap": "planets/assets/blank_map.png",
+        "heightMap": "planets/assets/blackrock_heightmap.png",
+        "textureMap": "planets/assets/blackrock_texturemap.png",
         "maxHeight": 270,
         "minHeight": 230
     },
@@ -29,6 +29,6 @@
         "size": 300,
         "hasAtmosphere": true,
         "hasOxygen": true,
-        "atmosphereTint": {"R": 0, "G": 120, "B": 255}
+        "atmosphereTint": {"R": 0, "G": 40, "B": 255}
     }
 }
